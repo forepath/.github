@@ -13,7 +13,7 @@ Forepath provides a unified ecosystem of modular tools that help developers, tea
 
 Kublade is an open developer platform that streamlines how teams build and operate microservices in Kubernetes. It integrates your Git workflows, CI/CD pipelines, environments, secrets, documentation, and user interfaces into one centralized system.
 
-📦 Core: [forepath/kublade-core](https://github.com/forepath/kublade-core)  
+📦 Core: [forepath/kublade-core](https://github.com/forepath/kublade)  
 📚 Docs: [forepath/kublade-documentation](https://github.com/forepath/kublade-documentation)  
 🎯 Templates: [forepath/kublade-template-repository](https://github.com/forepath/kublade-template-repository)
 
@@ -24,13 +24,30 @@ Kublade is an open developer platform that streamlines how teams build and opera
 
 OBMS is a modular, extensible platform for managing online businesses - from products and payments to bookkeeping and process automation.
 
-📦 Core: [forepath/obms-core](https://github.com/forepath/obms-core)  
+📦 Core: [forepath/obms-core](https://github.com/forepath/obms)  
 🔌 Modules:  
 - [forepath/obms-module-sdk](https://github.com/forepath/obms-module-sdk)  
 - [forepath/obms-paymentgateway-paypal](https://github.com/forepath/obms-paymentgateway-paypal)
 
 🎨 Themes: [forepath/obms-theme-aurora](https://github.com/forepath/obms-theme-aurora)  
 📚 Docs: [forepath/obms-documentation](https://github.com/forepath/obms-documentation)
+
+---
+
+### ☁️ [Laravel S3 Server](https://github.com/forepath/laravel-s3-server)
+**Self-Hosted S3-Compatible Storage Server**
+
+A Laravel package that provides a complete S3-compatible storage server for local development and production use. Drop-in replacement for AWS S3 with full API compatibility, authentication, and file management.
+
+🔧 Features:
+- Full S3 API compatibility (AWS Signature Version 4)
+- Database-driven credential management
+- Bucket-level access control
+- Custom authentication and storage drivers
+- Encrypted credential storage
+- Laravel integration
+
+📦 Package: [forepath/laravel-s3-server](https://github.com/forepath/laravel-s3-server)
 
 ---
 
